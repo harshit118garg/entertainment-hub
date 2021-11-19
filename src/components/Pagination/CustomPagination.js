@@ -31,6 +31,8 @@ function CustomPagination(props) {
             count={numOfPages}
             onChange={(e) => handlePageChange(e.target.textContent)}
             color="secondary"
+            hidePrevButton
+            hideNextButton
           />
         </ThemeProvider>
       </div>
