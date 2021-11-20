@@ -21,7 +21,9 @@ function Movies() {
   };
 
   useEffect(() => {
+    window.scroll(0, 0);
     fetchMovies();
+    // eslint-disable-next-line
   }, [page]);
 
   return (
