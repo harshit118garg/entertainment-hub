@@ -50,7 +50,7 @@ const Genres = (props) => {
           style={{ margin: 2 }}
           label={genre.name}
           key={genre.id}
-          color="primary"
+          color="secondary"
           clickable
           size="small"
           onDelete={() => handleRemove(genre)}
