@@ -2,6 +2,7 @@ import React from "react";
 import "./SingleContent.css";
 import { img_300, unavailable } from "../../config/config";
 import { Badge } from "@material-ui/core";
+import ContentModal from "../ContentModal/ContentModal";
 
 function SingleContent(props) {
   const { id, poster, title, date, media_type, vote_average } = props;

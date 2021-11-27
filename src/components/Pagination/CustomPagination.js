@@ -5,6 +5,9 @@ import React from "react";
 const darkTheme = createTheme({
   palette: {
     type: "dark",
+    primary: {
+      main: "#fff",
+    },
   },
 });
 
